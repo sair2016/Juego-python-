@@ -11,7 +11,25 @@ class Heroe (pygame.sprite.Sprite):
                  pygame.image.load("imagenes/Skins/mega-man.png"),
                  pygame.image.load("imagenes/Skins/Goku.png"),
                  pygame.image.load("imagenes/Skins/naruto.png"),
-                 pygame.image.load("imagenes/Skins/luffy.png"),             
+                 pygame.image.load("imagenes/Skins/luffy.png"), 
+                 pygame.image.load("imagenes/Skins/Alphonse.png"), 
+                 pygame.image.load("imagenes/Skins/Edward.png"), 
+                 pygame.image.load("imagenes/Skins/charizard.png"), 
+                 pygame.image.load("imagenes/Skins/dragonite.png"),
+                 pygame.image.load("imagenes/Skins/MasterChief.png"),
+                 pygame.image.load("imagenes/Skins/linterna-verde.png"),
+                 pygame.image.load("imagenes/Skins/superman.png"),
+                 pygame.image.load("imagenes/Skins/batman.png"),
+                 pygame.image.load("imagenes/Skins/Magneto.png"),  
+                 pygame.image.load("imagenes/Skins/Thanos.png"), 
+                 pygame.image.load("imagenes/Skins/Antorcha.png"),  
+                 pygame.image.load("imagenes/Skins/Iron-man.png"),
+                 pygame.image.load("imagenes/Skins/spider-man.png"),       
+                 pygame.image.load("imagenes/Skins/thor.png"),
+                 pygame.image.load("imagenes/Skins/ghost-rider.png"),
+                 pygame.image.load("imagenes/Skins/capitan-america.png"),
+                 pygame.image.load("imagenes/Skins/wolverine.png"),
+                 
                  ]
                         
          self. Imagen = self.Imagenes[0]  
