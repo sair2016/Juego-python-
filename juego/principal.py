@@ -146,9 +146,8 @@ while menu == 0:
 	
 	x = 0
 	y = 100	
-  
 	ventana.blit(cuadro,((a*55),b))
-	ventana.blit(pygame.transform.rotozoom(chica.Imagen, 0, 3),(600,200))
+	ventana.blit(chica.Imagenes_muestra[a+c],(600,100))
 	pygame.display.update()
  	for event in pygame.event.get():
 		 if event.type == QUIT:
@@ -159,22 +158,26 @@ while menu == 0:
 				 a -= 1
 				 chica.Imagen = chica.Imagenes[a+c]
 				 pygame.mixer.music.play()
+				 ventana.blit(chica.Imagenes_muestra[a+c],(600,100))
 			 if event.key == K_RIGHT and a<11:
 				 a +=1
 				 chica.Imagen = chica.Imagenes[a+c]
 				 pygame.mixer.music.play()
+				 ventana.blit(chica.Imagenes_muestra[a+c],(600,100))
 			 if event.key == K_DOWN:
 				 c +=10
 
 				 b +=55
 				 pygame.mixer.music.play
 				 chica.Imagen = chica.Imagenes[a+c]
+				 ventana.blit(chica.Imagenes_muestra[a+c],(600,100))
 				 
 			 if event.key == K_UP:
 				 c -=10
 				 b -=55 
 				 chica.Imagen = chica.Imagenes[a+c] 
-				 pygame.mixer.music.play				 	  	 
+				 pygame.mixer.music.play
+				 ventana.blit(chica.Imagenes_muestra[a+c],(600,00))				 	  	 
 			 if event.key == K_SPACE:
 				 menu = 1
 				 
